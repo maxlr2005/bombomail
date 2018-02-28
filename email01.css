@@ -1,28 +1,123 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
 #frame{
-    position: relative;
+position: relative;
 width: 452px;
 height: 728px;
-text-align: center;
+align-content: center;
 background: #EDEDED;
+text-align: center;
+
 }
 #banner{
-    margin-top: 32px;
     width: 452px;
 	height: 199px;
 }
 .button{
-    align-content: center;
+    position: inherit;
+    top:30%;
+    left: 23%;
+    width: 50%;
+    vertical-align: middle;
     width: 244px;
 	height: 39px;
 	border-radius: 10px;
 	background-color: #fda237;
 	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
+#btnlink{
+    text-decoration: none;
+}
 #btn_text{
-    width: 120px;
-	height: 39px;
+    text-align: center;
 	font-size: 25px;
 	font-weight: 600;
 	color: #ededed;
 	text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+#texto1{
+    width: 452px;
+	height: 104px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #ea504c;
+	text-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0;
+}
+#texto2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+	font-weight: 600;
+	color: #243237;
+}
+#texto3{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+    font-size: 25px;
+	font-weight: 600;
+	color: #243237;
+}
+#texto4{
+    margin-left: 20;
+    margin-right: 20;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+	font-weight: 600;
+	color: #243237;
+    
+}
+#texto5{
+    margin-left: 20;
+    margin-right: 20;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+	font-weight: 600;
+	color: #243237;
+}
+#texto6{
+    margin-left: 20;
+    margin-right: 20;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+	font-weight: 600;
+	color: #243237;
+}
+a#texto7{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+	font-weight: 600;
+	color: #25bf89;
+    text-decoration: none;
+}
+#texto8{
+	font-size: 18px;
+	font-weight: 600;
+	color: #417f96;
+    margin: auto;
+}
+.bottom{
+    width: 452px;
+	height: 57px;
+	background-color: #243237;
+    vertical-align: middle;
+}
+ul#social li {
+    display: inline;
 }
